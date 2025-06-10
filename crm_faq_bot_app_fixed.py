@@ -8,7 +8,7 @@ st.set_page_config(page_title="CRM FAQ Bot", layout="centered")
 st.title("🤖 CRM FAQ Chatbot")
 
 # --- Initialize OpenAI client ---
-client = OpenAI(api_key=st.secrets["sk-proj-j6xHZdEqJFQSRMyuBq2JQGmfoNoFlU2jF5Tnu8xKFaKeOAh2ovLOYiXL_hjLp6LCf4RydqW4ZPT3BlbkFJcw5-qQu8gc81Oue3aU3XBNXLe1t9gpOcgkSSLuMefusufblh0veDx3jMRzylpDUTkpX0ghkScA"])
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # --- LOAD DATA ---
 @st.cache_data
